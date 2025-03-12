@@ -26,5 +26,13 @@ The **actions** that i took were based on the main idea of making this project v
 
 As a **result** , i obtained a very easy to deploy infrastructure MultiCloud environment that is very well organized for further implementations and very reliable for any similar situation.As i said , this was a real case scenario and i lead entirely from his creation until his deployment. 
 
+## Considerations 
+
+* The nodes from the Cluster are in a public subnet , and if you want to implement this you need to take on consideration in adding in the Azure Firewall the public ip that they have.
+*  Public ip must be static , in other case you will need everytime to switch ip in the Azure Firewall setup.
+*  These steps that i mentioned before could be implemented via Terraform , so i don't have refused this idea yet.
+*  This is an implementation of the architecture in this Multicloud scenario for further configurations feel free to ask me anytime.
+   
+
 # End Credits
 This program is ready to use and set up if you wanna to give it a try , so feel free to use it with responsability and don't forget to write your own values like ( VPC ID , subnets ID ...).
