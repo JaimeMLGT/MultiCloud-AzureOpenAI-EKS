@@ -30,7 +30,8 @@ As a **result** , i obtained a very easy to deploy infrastructure MultiCloud env
 
 * The nodes from the Cluster are in a public subnet , and if you want to implement this you need to take on consideration in adding in the Azure Firewall the public ip that they have.
 *  Public ip must be static , in other case you will need everytime to switch ip in the Azure Firewall setup.
-*  These steps that i mentioned before could be implemented via Terraform , so i don't have refused this idea yet.
+*  These network configurations that i mentioned before could be implemented via Terraform , so i don't have refused this idea yet.
+*  If you want to deploy everything with only one command you can do it using *terragrunt run-all apply* but remember to switch the input values in eks/ and openai/ folders.
 *  This is an implementation of the architecture in this Multicloud scenario for further configurations feel free to ask me anytime.
    
 
