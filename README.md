@@ -5,7 +5,7 @@ This project is a MultiCloud scenario where i will be using both clouds AWS and 
 
 ## Diagram
 ![alt text](https://github.com/JaimeMLGT/MultiCloud-AzureOpenAI-EKS/blob/main/AzureOpenAI%20integration.jpg)
-## Tecnologies Used 
+## Technologies Used 
 * Terraform 
 * Terragrunt 
 * EKS
